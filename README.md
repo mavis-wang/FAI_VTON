@@ -38,7 +38,6 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 1. A Web Application, allowing users to upload their custom posed video to try on any cloth images.
 2. In-store Smart-Mirror Kiosk
 
-
 ## Methodology
 - [x] 3-stage ML modules Network
 1. Real-time Body Pose Detection and Segmentation
@@ -61,6 +60,7 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 ## Model Improvement
 - Body Parsing (Segmentation): Improved human parsing (fixed-neck)
 - Improved body pose estimation <br>
+- Improved +44% overall representation in SSIM compared to CPVTON and ShionOn.
 
 ## MVP Features
 - [x] Upload a customed video from computer
@@ -75,3 +75,27 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 3. Significant model improvement in SSIM for body segmentation, compared to CP-VTON and Shine-On.
 4. Successfully integrated and deployed a 3-staged ML system network in Flask.
 5. Buit a consumer facing interface MVP AI-Powered Web application to demonstrate product-market opportunity.
+
+
+# Overview
+## Network
+<img src="https://raw.githubusercontent.com/SJSUMS/SMFAI/main/video_tryOn_system_pipe.png"></img>
+
+### Input
+	* Custom Personal Video
+	* Target Cloth Image
+### Output
+	* Custom Personal Video with the transferred Cloth Image (Video)
+
+### Dataset
+- [Processed train/test VTON](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
+- [Processed Custom Person Video](https://github.com/mavis-wang/FAI_VTON/tree/main/processed%20data)
+- [Processed CP-VTON Clothing and Mask](https://drive.google.com/file/d/19RCQFjkbFaufXU518KAtkQtlfhTd9hsj/view?usp=sharing)
+- Testing data from Superdry.com
+
+## Video Pre-processing Pipeline
+<img src = 'https://raw.githubusercontent.com/SJSUMS/SMFAI/main/data_process_pipe.png' width="800"></img>
+
+## Demo
+<img src="https://raw.githubusercontent.com/mavis-wang/FAI_VTON/main/SMFAI_VVT.gif" width="800"></img>
+<img src="https://raw.githubusercontent.com/mavis-wang/FAI_VTON/main/sample.gif" width="814"></img>
