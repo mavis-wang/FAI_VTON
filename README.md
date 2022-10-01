@@ -1,10 +1,9 @@
 # Fashion AI Video Virtual Try-On
 <b>`Individual Research`,`Computer Vision`, `Video Processing`,`OpenCV`, `TorchVision` </b>
 
-#### Related Work: [Smart Mirror Fashion AI](https://github.com/SJSUMS/SMART-MIRROR-FASHION-AI_SMFAI)
+Related Work: [Smart Mirror Fashion AI](https://github.com/SJSUMS/SMART-MIRROR-FASHION-AI_SMFAI) | Researcher: [mavisw](https://github.com/mavisw)
 
-#### Autor: [mavisw](https://github.com/mavisw)
-
+## [Slide](https://docs.google.com/presentation/d/1E7Yp80WgeTmb1xrBq-GbTdtRsQMCSD1jUvzFqo3Tu9I/present?usp=sharing) | [Demo](https://www.youtube.com/watch?v=6Am-NE1LYes)
 ## Motivation
 #### Trend and Opportunity
 <p>The fashion artificial intelligence (FAI) industry is lucrative and competitive. According to
