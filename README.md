@@ -15,7 +15,7 @@ digitized space. As a result, the demand for virtual fitting rooms has become im
 
 
 #### Problem with [Smart-Mirror Fashion AI](https://github.com/SJSUMS/SMART-MIRROR-FASHION-AI_SMFAI) (Fitting Room) Project
-Like any other product, AI products can't survive without Product-Market fit. I'm skeptical about the valid use case of a Smart Mirror Fitting Room for the following reasons. If AI technology does not add additional value to the customer but the risk harms us, we might reconsider repositioning the human-centered AI product. 
+Like any other product, AI products can't survive without Product-Market fit. I'm skeptical about the valid use case of a Smart Mirror Fitting Room for the following reasons. If AI technology does not add much value to the customer, we might reconsider repositioning the product to make it human-centered. 
 1. High Cost: High cost of the AI technology investment and the devices - 'Smart' Mirror (large touch-screen tablet).
 2. Data Privacy: Privacy concern over the concept of the virtual fitting room.
 4. Shopping behavior: Customer has been changed their shopping pattern from in-store to online.
