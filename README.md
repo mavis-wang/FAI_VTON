@@ -34,7 +34,7 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 - Incentivise instore shopping.
 
 ## Proposed Solutions
-1. A Web Application, allowing users to upload their custom posed video to try on any cloth images.
+1. A Web Application, allowing users to upload their custom posed video to try on any cloth images found on internet.
 2. In-store Smart-Mirror Kiosk
 
 ## Methodology
