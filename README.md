@@ -20,6 +20,7 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 2. Data Privacy: Privacy concern over the concept of the virtual fitting room.
 4. Shopping behavior: Customer has been changed their shopping pattern from in-store to online.
 3. Impractical use case: In addition to #1, #2 and #3, a smart-mirror-based ecommerce online shopping model can be easily replaced by a handy mobile shopping experience, which aligns more with the identified customer behavior and trend.
+4. CP-VTON model was designed for image-to-image transfer. The framework and algorithm was developed in 2018.
 
 ## Business Goal
 - Find opportunity to integrate AI technology to help clothing retailers boost sales.
@@ -36,11 +37,12 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 ## Proposed Solutions
 1. A Web Application, allowing users to upload their custom posed video to try on any cloth images found on internet.
 2. In-store Smart-Mirror Kiosk
+3. Instead of CP-VTON, I experiemented with CP-VTON+ with the improved the body parsing/segmentation algorithm.
 
 ## Methodology
 - [x] 3-stage ML modules Network
-1. Real-time Body Pose Detection and Segmentation
-2. Garment Segmentation
+1. Real-time Human Pose Shape Detection and Segmentation(Parsing)
+2. Garment Segmentation (OpenCV Mask)
 3. Video Reconstruction
 - [x] Transfer learning (body parsing, pose tracking, cloth transfer)
 
@@ -55,6 +57,12 @@ Like any other product, AI products can't survive without Product-Market fit. I'
     - [x] AI-Powered Functionality
     - [x] Features
 - [x] MVP Web Application Try On Demo
+
+### Experimental Models
+- [x] OpenPose / COCO Keypoint / DensePose
+- [x] MaskRCNN 
+- [x] 
+- [x] CP-VTON+
 
 ## Model Improvement
 - Body Parsing (Segmentation): Improved human parsing (fixed-neck)
