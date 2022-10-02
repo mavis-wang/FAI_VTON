@@ -61,7 +61,7 @@ Like any other product, AI products can't survive without Product-Market fit. I'
 ### Experimental Models
 - [x] OpenPose / COCO Keypoint / DensePose
 - [x] MaskRCNN 
-- [x] 
+- [x] CIHP_PGN
 - [x] CP-VTON+
 
 ## Model Improvement
